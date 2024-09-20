@@ -15,7 +15,7 @@ This repository contains the original code and models for the work _Deep Learnin
 
 ## Training & Evaluation
 This code implements the superposition of 4qam and 4qam, as well as the superposition for 4qam and 16qam.
-'./models' contains some trained model parameters as examples. (To be uploaded)
+Some trained model parameters as examples can be found in: https://jbox.sjtu.edu.cn/l/41Ufn9.
 
 For training, first train the pretrain model then the SCM model.
 To train the pretrain model, run the following command (as an example):
