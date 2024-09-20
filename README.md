@@ -19,13 +19,13 @@ This code implements the superposition of 4qam and 4qam, as well as the superpos
 
 For training, first train the pretrain model then the SCM model.
 To train the pretrain model, run the following command (as an example):
-'''
+```
 python main.py --net 'analog_good' --mode 'train' --order 16
-'''
+```
 To train the SCM model, run the following command (as an example):
-'''
+```
 python main.py --net 'scm' --mode 'train' --sp_mode '4and4' --a 0.8
-'''
+```
 It's perfectly OK not to train or load the pretrain model, just comment out the corresponding lines.
 
 For evaluation, run the following command (as an example):
